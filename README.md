@@ -45,6 +45,9 @@ Flask, SQLAlchemy, Aiogram 3, aiohttp, asyncio, SQLite
 `GET /api/coins` — список монет и их цены  
 `POST /api/coins/update` — обновление цен через CoinGecko  
 
+---
+
+Примечание: Поддержка JWT-авторизации запланирована в следующих версиях.
 
 ---
 
@@ -89,4 +92,7 @@ Flask, SQLAlchemy, Aiogram 3, aiohttp, asyncio, SQLite
 `GET /api/coins` — list coins and prices  
 `POST /api/coins/update` — refresh prices from API  
 
+---
+
+Note: Authentication (JWT) is planned for a future version.
 

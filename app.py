@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from config import Config
-from extensions import db, jwt
+from extensions import db
 from models import User, Coin, Alert
 
 
@@ -10,7 +10,6 @@ def create_app():
 
 
     db.init_app(app)
-    jwt.init_app(app)
 
     import routes
     app.register_blueprint(routes.bp)

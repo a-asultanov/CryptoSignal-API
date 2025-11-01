@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from extensions import db, jwt
+from extensions import db
 from models import User, Coin, Alert
 from crypto_service import fetch_prices
 import asyncio

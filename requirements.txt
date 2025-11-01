@@ -1,7 +1,6 @@
 # Flask core
 Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
-Flask-JWT-Extended==4.6.0
 
 # Serialization
 marshmallow==3.21.1

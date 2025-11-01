@@ -24,7 +24,6 @@ Flask, SQLAlchemy, Aiogram 3, aiohttp, asyncio, SQLite
    ```
    FLASK_ENV=development
    SECRET_KEY=dev-flask-secret
-   JWT_SECRET_KEY=dev-jwt-secret
    DATABASE_URL=sqlite:///crypto.db
    BOT_TOKEN=токен_вашего_бота
    PRICE_API_URL=https://api.coingecko.com/api/v3/simple/price
@@ -44,10 +43,6 @@ Flask, SQLAlchemy, Aiogram 3, aiohttp, asyncio, SQLite
 `GET /api/status` — проверка состояния API  
 `GET /api/coins` — список монет и их цены  
 `POST /api/coins/update` — обновление цен через CoinGecko  
-
----
-
-Примечание: Поддержка JWT-авторизации запланирована в следующих версиях.
 
 ---
 
@@ -72,7 +67,6 @@ Flask, SQLAlchemy, Aiogram 3, aiohttp, asyncio, SQLite
    ```
    FLASK_ENV=development
    SECRET_KEY=dev-flask-secret
-   JWT_SECRET_KEY=dev-jwt-secret
    DATABASE_URL=sqlite:///crypto.db
    BOT_TOKEN=your_telegram_bot_token_here
    PRICE_API_URL=https://api.coingecko.com/api/v3/simple/price
@@ -94,5 +88,5 @@ Flask, SQLAlchemy, Aiogram 3, aiohttp, asyncio, SQLite
 
 ---
 
-Note: Authentication (JWT) is planned for a future version.
+
 
